@@ -1,6 +1,6 @@
 # Site settings
-title: DALI 2017 - Data Learning and Inference
-permalink: "/:categories/:title.html"
+title: DALI 2018 - Data Learning and Inference
+permalink: "/:title.html"
 # Include image banner file name below
 banner: costa-adeje.jpg 
 conference:
@@ -41,10 +41,10 @@ conference:
   - name: Bernhard Schölkopf (chair)
     url: "http://ei.is.tuebingen.mpg.de/person/bs"
     institute: MPI Tübingen
-  name: DALI 2017 - Data Learning and Inference
+  name: DALI 2018 - Data Learning and Inference
   venue: H10 Costa Adeje Palace
   location: Tenerife, Canary Islands
-  year: 2017
+  year: 2018
   month: April
   dates:
   - 2017-04-18
@@ -55,9 +55,9 @@ conference:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
 previous_meeting:
-  name: DALI 2016
-  url: "http://dalimeeting.org/dali2016/"
-baseurl: "" # the subpath of your site, e.g. /blog/
+  name: DALI 2017
+  url: "http://dalimeeting.org/dali2017/"
+baseurl: "/dali2018/" # the subpath of your site, e.g. /blog/
 url: "http://dalimeeting.org" # the base hostname & protocol for your site
 youtube:
   height: 315
