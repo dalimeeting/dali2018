@@ -36,6 +36,7 @@ conference:
   draft: true
   hide_tentative: true
   instance: 4th
+  styling: Workshop on
   name: Data Learning and Inference
   short_name: DALI
   full_name: Data Learning and Inference
@@ -47,52 +48,58 @@ conference:
   - 2018-04-04
   - 2018-04-05
   hosts:
-  general:
-  - given: Neil D.
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  - given: Bernhard
-    family: Schölkopf
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI for Intelligent Systems (Tübingen) and Amazon
-  workshop:
-  - given: Sebastian
-    family: Nowozin
-    institute: Microsoft Research Cambridge
-    url: "http://www.nowozin.net/sebastian/"
-  symposium:
-  - given: Fernando
-    family: Perez-Cruz
-    url: "http://www.tsc.uc3m.es/~fernando"
-    institute: "Swiss Data Science Center"
-  - given: Isabel
-    family: Valera
-    url: "https://ivaleram.github.io/"
-    institute: "MPI for Intelligent Systems (Tübingen)"
-  assistants:
-  - given: Diana
-    familY: Rebmann 
-    url: "https://ei.is.tuebingen.mpg.de/person/drebmann"
-    institute: MPI for Intelligent Systems (Tübingen)
-  steering:
-  - given: Zoubin
-    family: Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge and Uber
-  - given: Thomas
-    family: Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  - given: Neil D.
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  - given: Bernhard
-    family: Schölkopf
-    position: Chair
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI for Intelligent Systems (Tübingen)
+  chairs:
+  - type: General Chairs
+    people:
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: Amazon and University of Sheffield
+    - given: Bernhard
+      family: Schölkopf
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI for Intelligent Systems (Tübingen) and Amazon
+    type: Workshop Chair
+    people:
+    - given: Sebastian
+      family: Nowozin
+      institute: Microsoft Research Cambridge
+      url: "http://www.nowozin.net/sebastian/"
+  - type: Symposium Chairs
+    people:
+    - given: Fernando
+      family: Perez-Cruz
+      url: "http://www.tsc.uc3m.es/~fernando"
+      institute: "Swiss Data Science Center"
+    - given: Isabel
+      family: Valera
+      url: "https://ivaleram.github.io/"
+      institute: "MPI for Intelligent Systems (Tübingen)"
+  - type: Assistant
+    people:
+    - given: Diana
+      family: Rebmann 
+      url: "https://ei.is.tuebingen.mpg.de/person/drebmann"
+      institute: MPI for Intelligent Systems (Tübingen)
+  - type: Steering Committee
+    people:
+    - given: Zoubin
+      family: Ghaharamani
+      url: "http://mlg.eng.cam.ac.uk/zoubin/"
+      institute: University of Cambridge
+    - given: Thomas
+      family: Hofmann
+      url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+      institute: ETH Zurich
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Sheffield
+    - given: Bernhard
+      family: Schölkopf
+      positon: Chair
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI Tübingen
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
